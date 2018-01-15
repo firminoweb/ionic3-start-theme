@@ -37,3 +37,16 @@ ___
 
 ## **ionBooking Lite - Ionic 3 Hotel Booking Theme:**
 [![ionBooking Lite - Ionic 3 Hotel Booking Theme](https://i.imgur.com/9RtyHY8.png)](https://market.ionicframework.com/themes/ionbooking-lite)
+
+<br><br>
+
+### Visit our official channels:
+
+** Website:  **
+[https://ionictheme.com](https://ionictheme.com)
+
+** Twitter:  **
+[https://twitter.com/ionictheme](https://twitter.com/ionictheme)
+
+** Facebook Page:  **
+[https://www.facebook.com/ionicthemecom](https://www.facebook.com/ionicthemecom)
