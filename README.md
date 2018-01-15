@@ -2,6 +2,8 @@
 
 Ionic 3 Theme Starter with 10 Pages, mock data, providers samples, Storage, Http and more. Optimized to be performatic at any platform app (Android & iOS) and Web Apps (PWA).
 
+### View ID: **a93c3345**
+
 ### Pages
 * Login
 * Register
