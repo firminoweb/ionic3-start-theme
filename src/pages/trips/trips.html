@@ -1,0 +1,36 @@
+<!-- -->
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      <span ion-text>Activities</span>
+    </ion-title>
+  </ion-navbar>
+
+  <!--  -->
+  <ion-toolbar padding color="light">
+    <p ion-text no-margin class="text-white">
+      <strong>4</strong> results found!
+    </p>
+  </ion-toolbar>
+
+</ion-header>
+
+<ion-content padding class="trips detail-bg">
+  <!--list of trips-->
+  <div class="trip card" *ngFor="let trip of trips" tappable (click)="viewDetail(trip.id)" margin-bottom>
+    <div class="background border-bottom" [ngStyle]="{'background-image': 'url(' + trip.thumb + ')'}">
+      <div class="background-filter rlt">
+        <div class="align-bottom" padding-left padding-right>
+          <h6 class="pull-left text-white" ion-text>{{ trip.name }}</h6>
+          <h6 class="pull-right text-white" ion-text>{{ trip.price_adult | currency:'USD':true }}</h6>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <div class="padding-sm primary-bg">
+      <ion-icon name="time" class="text-white"></ion-icon>
+      <span ion-text class="text-white">{{ trip.time }}</span>
+      <span class="pull-right" ion-text color="light"><strong>per adult</strong> (childs has <span ion-text  class="text-green bold">50% OFF</span>)</span>
+    </div>
+  </div>
+</ion-content>

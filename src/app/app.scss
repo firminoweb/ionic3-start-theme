@@ -1,0 +1,547 @@
+// http://ionicframework.com/docs/theming/
+// App Shared Imports
+// --------------------------------------------------
+
+// global styles
+.primary-bg {
+  background-color: color($colors, primary) !important;
+}
+
+.secondary-bg {
+  background-color: color($colors, secondary) !important;
+}
+
+.common-bg {
+  background-color: #FAFBFC;
+}
+
+.white-bg {
+  background-color: #fff;
+}
+
+.detail-bg {
+  background-color: #f1f1f5;
+}
+
+.light-bg {
+  background-color: color($colors, light);
+}
+
+.dark-bg {
+  background-color: color($colors, dark);
+}
+
+.green-bg {
+  background-color: #68C91F;
+}
+
+.profile-bg {
+  background-image: linear-gradient(135deg, color($colors, dark), color($colors, primary), color($colors, light));
+}
+//
+//
+.text-primary {
+  color: color($colors, primary);
+}
+
+.text-secondary {
+  color: color($colors, secondary);
+}
+
+.text-green {
+  color: #68C91F;
+}
+
+.text-yellow {
+  color: #FDD835;
+}
+
+.text-white {
+  color: #fff;
+}
+
+//
+.dark-trans,
+.toast-md .toast-wrapper {
+  background-color: rgba(0, 0, 0, .4);
+}
+
+
+// Helpers
+.quarter-op {
+  opacity: .25;
+}
+
+.no-paddingTRL {
+  padding-top: 0 !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.no-paddingTRB {
+  padding-top: 0 !important;
+  padding-right: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.no-paddingB {
+  padding-bottom: 0 !important;
+}
+
+.no-paddingT {
+  padding-top: 0 !important;
+}
+
+.padding-xs {
+  padding: 10px;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.no-pl {
+  padding-left: 0 !important;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.no-marginT {
+  margin-top: 0 !important;
+}
+
+.mt-half {
+  margin-top: .5rem !important;
+}
+
+.mt-1 {
+  margin-top: 1rem !important;
+}
+
+.mb-half {
+  margin-bottom: .5rem;
+}
+
+.marginB-16px {
+  margin-bottom: 16px !important;
+}
+
+.marginB-2 {
+  margin-bottom: 2rem !important;
+}
+
+.marginT-16px {
+  margin-top: 16px !important;
+}
+
+.marginT-2 {
+  margin-top: 2rem !important;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.rlt {
+  position: relative;
+}
+
+.clear {
+  clear: both;
+}
+
+.align-bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+.round {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.no-round {
+  border-radius: 0;
+}
+
+.border-bottom {
+  border-bottom: 1px solid rgba(86, 61, 124, 0.1);
+}
+
+.full-width {
+  width: 100% !important;
+}
+
+.max-width {
+  max-width: 100% !important;
+}
+
+.padding-sm {
+  padding: 1rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+// text size
+.text-2x {
+  font-size: 2em;
+}
+
+.text-1x {
+  font-size: 1em;
+}
+
+.text-sm {
+  font-size: 0.7em;
+}
+
+.bold {
+  font-weight: bold !important;
+}
+
+// buttons configs
+.btn-facebook {
+  background-color: #3B5999;
+}
+
+.btn-twitter {
+  background-color: #00ACEE;
+}
+
+.btn-gplus {
+  background-color: #E04006
+}
+
+// badge style
+ion-badge {
+  &.square {
+    border-radius: 0;
+  }
+}
+
+// card style
+.card {
+  background: #FFF;
+  border-radius: 1rem;
+  box-shadow: 0 0 1px rgba(86, 61, 124, 0.2), 0 2px 4px rgba(86, 61, 124, 0.15);
+}
+
+// navbar style
+ion-navbar.no-border {
+
+  .toolbar-background {
+    border: none;
+  }
+}
+
+// list style
+.list-no-border {
+
+  .item:first-child {
+    border: none;
+  }
+  .item:last-child {
+    border: none;
+  }
+
+  .item {
+    .item-inner {
+      border: none;
+    }
+  }
+}
+
+.list-full-border {
+  @extend .list-no-border;
+
+  .item,
+  .item:first-child,
+  .item:last-child {
+    border-bottom: 1px solid rgba(86, 61, 124, 0.2);
+    .item-inner {
+      border: none;
+    }
+  }
+}
+
+// item style
+.item.no-border {
+  .item-inner {
+    border: none;
+  }
+}
+
+// Toolbar
+// transparent nav bar
+.toolbar {
+  &.nav-transparent {
+    .toolbar-background {
+      background-color: rgba(86, 61, 124, .65);
+    }
+  }
+  .toolbar-title {
+    img {
+      vertical-align: sub;
+      border-radius: 10%;
+    }
+  }
+}
+
+// style for auth pages
+.auth-page {
+  background-color: #fff;
+  &::after {
+    content: "";
+    background: url("../assets/img/bg.jpg") no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 0;
+  }
+
+  .scroll-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    //background: rgba(50, 10, 92, .4);
+
+    .login-content {
+      width: 86%;
+
+      .logo {
+        width: 60px;
+        height: 60px;
+        margin: 20px auto 0;
+        border-radius: 10%;
+        background: url("../assets/img/ionic3-ico.png") no-repeat;
+        background-size: 100%;
+      }
+
+      .list-form {
+        padding: 0;
+        margin-bottom: 0;
+
+        ion-item {
+          background: none;
+          padding: 0;
+
+          &:first-child {
+            border-top: none;
+          }
+
+          &:after {
+            display: none;
+          }
+
+          ion-label {
+            font-size: 1em;
+            color: color($colors, primary);
+          }
+
+          input {
+            color: color($colors, primary);
+          }
+        }
+      }
+    }
+  }
+}
+
+// Menu user profile
+.user-profile {
+  .user-avatar {
+    width: 68px;
+    height: 68px;
+    display: inline-block;
+    border-radius: 50%;
+    box-shadow: inset 0 0 10rem rgba(0,0,0,.25), 0 0 4rem rgba(255,255,255,.45);
+    img {
+      border-radius: 50%;
+    }
+  }
+  .toolbar-background {
+    background-image: linear-gradient(135deg, color($colors, dark), color($colors, primary));
+  }
+
+  .other-data {
+    .column {
+      &:first-child {
+        border-right: 1px solid rgba(36, 50, 157, .25);
+      }
+    }
+  }
+}
+
+.user-list {
+  .item {
+    &:last-child {
+      border-bottom: 0;
+    }
+    .item-inner {
+      border-color: rgba(86, 61, 124, .1);
+    }
+  }
+}
+
+// styles for hotels
+.hotel-bg {
+  background-position: center;
+
+  .bg-filter {
+    position: relative;
+    height: 150px;
+    background: rgba(0, 0, 0, .5);
+
+    .bottom-info {
+      position: absolute;
+      width: 100%;
+      bottom: 1rem;
+      padding: 1rem;
+    }
+  }
+
+  .discount {
+    position: absolute;
+    padding: 0.5rem 1rem;
+    top: 0;
+    right: 0;
+    background-color: #68C91F;
+    color: #fff;
+  }
+
+  .origin-price {
+    color: #C0C0C0;
+    text-decoration: line-through;
+  }
+
+  .sale-price,
+  .price {
+    font-size: 1.8rem;
+  }
+}
+
+// style for slider
+ion-slides.to-top {
+  height: auto;
+  margin-bottom: -5px;
+
+  .swiper-pagination {
+    display: block !important;
+
+    .swiper-pagination-bullet {
+      background: color($colors, light);
+    }
+  }
+}
+
+.to-top {
+  height: auto;
+  margin-bottom: -5px;
+}
+
+// style for ion-icon
+ion-icon[ng-reflect-disabled="true"] {
+  color: #FAFBFC;
+  pointer-events: none;
+}
+
+// checkout info style
+.checkout-info {
+
+  span {
+    font-size: 1.2rem;
+  }
+}
+
+// remove shadow from header
+.md {
+  ion-header {
+    &.no-shadow::after {
+      background-image: none;
+    }
+  }
+
+  ion-toolbar,
+  ion-navbar {
+    .button,
+    .button.activated {
+      box-shadow: none;
+    }
+  }
+}
+
+.ios {
+  ion-list ion-item,
+  .list-hotels .hotel-bg {
+    pointer-events: none;
+  }
+}
+
+// google
+.google-map {
+  height: 160px;
+  pointer-events: none;
+  margin: 0 -20px;
+}
+
+// Animate CSS
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  animation-iteration-count: infinite;
+}
+
+.animated.hinge {
+  animation-duration: 2s;
+}
+
+.animated.flipOutX,
+.animated.flipOutY,
+.animated.bounceIn,
+.animated.bounceOut {
+  animation-duration: .75s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInDown {
+  animation-name: fadeInDown;
+}

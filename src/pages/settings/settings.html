@@ -1,0 +1,76 @@
+<!-- -->
+<ion-header class="no-shadow">
+
+  <ion-navbar class="no-border">
+    <ion-title>
+      <ion-icon name="cog" class="text-primary"></ion-icon>
+      <span class="text-primary">Settings</span>
+    </ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content class="common-bg">
+  <!-- User settings-->
+  <ion-item-group>
+    <ion-item-divider color="secondary" class="bold">User Settings</ion-item-divider>
+    <ion-item>
+      <ion-label>Language</ion-label>
+      <ion-select [(ngModel)]="language" cancelText="Cancel" okText="OK">
+        <ion-option value="en-US" selected="true">English (US)</ion-option>
+        <ion-option value="en-GB">English (UK)</ion-option>
+        <ion-option value="en-CA">English (CA)</ion-option>
+        <ion-option value="en-AU">English (AU)</ion-option>
+        <ion-option value="en-IN">English (IN)</ion-option>
+        <ion-option value="pt-BR">Portuguese (BR)</ion-option>
+        <ion-option value="pt-PT">Portuguese (PT)</ion-option>
+        <ion-option value="es-ES">Spanish (ES)</ion-option>
+        <ion-option value="es-AR">Spanish (AR)</ion-option>
+        <ion-option value="es-CO">Spanish (CO)</ion-option>
+        <ion-option value="es-CL">Spanish (CL)</ion-option>
+        <ion-option value="es-MX">Spanish (MX)</ion-option>
+        <ion-option value="zh-CN">Chinese (CN)</ion-option>
+        <ion-option value="zh-TW">Chinese (TW)</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label>Currency</ion-label>
+      <ion-select [(ngModel)]="currency" cancelText="Cancel" okText="OK">
+        <ion-option value="USD" selected="true">U.S Dollar (US$)</ion-option>
+        <ion-option value="EUR">Euro (€)</ion-option>
+        <ion-option value="GBP">Pound (£)</ion-option>
+        <ion-option value="BRL">Brazilian Real (R$)</ion-option>
+        <ion-option value="CNY">Chinese Yuan</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label>Units</ion-label>
+      <ion-select [(ngModel)]="munits" cancelText="Cancel" okText="OK">
+        <ion-option value="M" selected="true">Miles (ft²)</ion-option>
+        <ion-option value="K">Kilometers (m²)</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label>Notifications?</ion-label>
+      <ion-toggle checked="true"></ion-toggle>
+    </ion-item>
+  </ion-item-group>
+  <!-- App settings-->
+  <ion-item-group>
+    <ion-item-divider color="secondary" class="bold">App Settings</ion-item-divider>
+    <ion-item>
+      <span>Clear Private Data</span>
+    </ion-item>
+    <ion-item>
+      <ion-label>Push Notifications?</ion-label>
+      <ion-toggle checked="false"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <span>Privacy Policy</span>
+    </ion-item>
+  </ion-item-group>  
+
+  <!--sign out button-->
+  <button ion-button color="primary" full tappable (click)="logout()">LOG OUT</button>
+
+</ion-content>

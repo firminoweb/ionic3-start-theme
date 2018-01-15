@@ -1,0 +1,23 @@
+<!-- # -->
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-input placeholder="Enter Destination" padding-left autofocus></ion-input>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content>
+  <div class="list-no-border">
+    <!--nearby places-->
+    <ion-item *ngFor="let item of places.nearby" tappable (click)="searchBy(item)">
+      <ion-icon name="md-locate" item-left color="primary"></ion-icon>
+      <span ion-text color="primary">{{ item.name }}</span>
+    </ion-item>
+    <!--recent places-->
+    <ion-item *ngFor="let item of places.recent" tappable (click)="searchBy(item)">
+      <ion-icon name="md-time" item-left color="primary"></ion-icon>
+      <span ion-text color="primary">{{ item.name }}</span>
+    </ion-item>
+  </div>
+</ion-content>
