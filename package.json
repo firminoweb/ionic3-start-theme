@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "@ionic/app-scripts": "3.0.1",
-    "ionic": "3.19.0",
+    "ionic": "3.19.1",
     "typescript": "2.3.4"
   },
   "description": "Ionic 3 Start Theme",

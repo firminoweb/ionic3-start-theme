@@ -27,6 +27,11 @@ ___
 ### Check my paid themes on Ionic Market:
 ___
 
+## **foodIonic - Ionic 3 Restaurant Food Order Theme:**
+[![foodIonic - Ionic 3 Restaurant Food Order Theme](https://i.imgur.com/EBd8v47.jpg)](https://market.ionicframework.com/themes/foodionic)
+
+<br>
+
 ## **ionProperty - Ionic 3 Real Estate & Properties Theme:**
 [![ionProperty - Ionic 3 Real Estate & Properties Theme](https://i.imgur.com/zMAJM8b.png)](https://market.ionicframework.com/themes/ionproperty)
 
@@ -44,11 +49,11 @@ ___
 
 ### Visit our official channels:
 
-** Website:  **
+**Website:**
 [https://ionictheme.com](https://ionictheme.com)
 
-** Twitter:  **
+**Twitter:**
 [https://twitter.com/ionictheme](https://twitter.com/ionictheme)
 
-** Facebook Page:  **
+**Facebook Page:**
 [https://www.facebook.com/ionicthemecom](https://www.facebook.com/ionicthemecom)
