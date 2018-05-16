@@ -27,6 +27,11 @@ ___
 ### Check my paid themes on Ionic Market:
 ___
 
+## **tripIonic - Ionic 3 flights cruises trains booking theme:**
+[![tripIonic - Ionic 3 flights cruises trains booking theme](https://i.imgur.com/qP9oxhE.jpg)](https://ionictheme.com/tripionic-ionic3-flights-cruises-trains-booking-theme)
+
+<br>
+
 ## **foodIonic - Ionic 3 Restaurant Food Order Theme:**
 [![foodIonic - Ionic 3 Restaurant Food Order Theme](https://i.imgur.com/EBd8v47.jpg)](https://market.ionicframework.com/themes/foodionic)
 
