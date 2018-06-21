@@ -24,41 +24,27 @@ ___
 
 **3.** Run  `ionic serve -l `, it will automatically generate a local www build and open this in your browser.
 
-### Check my paid themes on Ionic Market:
 ___
 
-## **tripIonic - Ionic 3 flights cruises trains booking theme:**
-[![tripIonic - Ionic 3 flights cruises trains booking theme](https://i.imgur.com/qP9oxhE.jpg)](https://ionictheme.com/tripionic-ionic3-flights-cruises-trains-booking-theme)
+## Know Ionic 4 Start Theme
 
-<br>
+* [Ionic 4 Start Theme (Github)](https://github.com/ionictheme/ionic4-start-theme)
 
-## **foodIonic - Ionic 3 Restaurant Food Order Theme:**
-[![foodIonic - Ionic 3 Restaurant Food Order Theme](https://i.imgur.com/EBd8v47.jpg)](https://market.ionicframework.com/themes/foodionic)
+## Know Our paid themes
 
-<br>
+* [ionBooking - Ionic 3 Hotel Booking Theme](https://ionictheme.com/ionbooking-ionic3-hotel-booking-theme)
+* [ionBooking Lite - Ionic 3 Hotel Booking Theme](https://ionictheme.com/ionbooking-lite-ionic3-hotel-booking-theme)
+* [ionProperty - Ionic 3 Real Estate Properties Theme](https://ionictheme.com/ionproperty-ionic3-realestate-properties-theme)
+* [foodIonic - Ionic 3 Restaurant and Food Order Theme](https://ionictheme.com/foodionic-ionic3-restaurant-food-order-theme)
+* [tripIonic - Ionic 3 flights cruises trains booking theme](https://ionictheme.com/tripionic-ionic3-flights-cruises-trains-booking-theme)
 
-## **ionProperty - Ionic 3 Real Estate & Properties Theme:**
-[![ionProperty - Ionic 3 Real Estate & Properties Theme](https://i.imgur.com/zMAJM8b.png)](https://market.ionicframework.com/themes/ionproperty)
-
-<br>
-
-## **ionBooking - Ionic 3 Hotel Booking Theme:**
-[![ionBooking - Ionic 3 Hotel Booking Theme](https://i.imgur.com/dMWI2hV.png)](https://market.ionicframework.com/themes/ionbooking)
-
-<br>
-
-## **ionBooking Lite - Ionic 3 Hotel Booking Theme:**
-[![ionBooking Lite - Ionic 3 Hotel Booking Theme](https://i.imgur.com/9RtyHY8.png)](https://market.ionicframework.com/themes/ionbooking-lite)
-
-<br><br>
-
-### Visit our official channels:
+## Visit our official channels:
 
 **Website:**
 [https://ionictheme.com](https://ionictheme.com)
-
+<br>
 **Twitter:**
 [https://twitter.com/ionictheme](https://twitter.com/ionictheme)
-
+<br>
 **Facebook Page:**
 [https://www.facebook.com/ionicthemecom](https://www.facebook.com/ionicthemecom)
