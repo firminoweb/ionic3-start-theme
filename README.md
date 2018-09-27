@@ -32,6 +32,7 @@ ___
 
 ## Know Our paid themes
 
+* [ionBooking 2 - Ionic 4 Hotel Booking Theme](https://ionictheme.com/ionbooking2-ionic4-hotel-booking-theme)
 * [ionBooking - Ionic 3 Hotel Booking Theme](https://ionictheme.com/ionbooking-ionic3-hotel-booking-theme)
 * [ionBooking Lite - Ionic 3 Hotel Booking Theme](https://ionictheme.com/ionbooking-lite-ionic3-hotel-booking-theme)
 * [ionProperty - Ionic 3 Real Estate Properties Theme](https://ionictheme.com/ionproperty-ionic3-realestate-properties-theme)
@@ -50,3 +51,9 @@ ___
 <br>
 **Facebook Page:**
 [https://www.facebook.com/ionicthemecom](https://www.facebook.com/ionicthemecom)
+
+
+## **ionBooking 2 - Ionic 4 Hotel Booking Theme:**
+[![ionBooking 2 - Ionic 4 ionBooking and tripIonic Themes](https://i.imgur.com/w6fKBLQ.jpg)](https://ionictheme.com/ionbooking2-ionic4-hotel-booking-theme)
+
+<br>
